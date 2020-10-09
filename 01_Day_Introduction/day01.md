@@ -256,7 +256,7 @@ Xem ví dụ dưới đây ta sẽ thấy các kiểu dữ liệu khác nhau:
 ## Level 2
 Thực hiện 4 mục ở level 1 trong 1 file python.
 
-File: [ex-day01.py](./ex-day01.py)
+**File:** [ex-day01.py](./ex-day01.py)
 
 **Kết quả:**
 

@@ -191,3 +191,39 @@ Kiểu dữ liệu số trong Python:
 - Interger : Số nguyên. Ví dụ: ... -3, -2, -1, 0, 1, 2, 3 ...
 - Float : Số thực. Ví dụ: ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
 - Complex Numbers : Số phức. Ví dụ: 1 + j, 2 + 4j, 1 - 1j
+
+# 💻 Bài tập
+## Level 1: 
+- Tạo 1 file `.py`
+- Viết comment: `Ngày 2 : 30 ngày lập trình Python`
+- Khai báo các biến sau và gán giá trị cho chúng:
+    - `firt_name`
+    - `last_name`
+    - `full_name`
+    - `country`
+    - `city`
+    - `age`
+    - `year`
+    - `is_married`
+    - `is_true`
+    - `is_light_on`
+- Khai báo nhiều biến trên 1 dòng
+
+## Level 2:
+1. Kiểm tra kiểu dữ liệu của các biến trên
+2. Tìm độ dài tên của bạn
+3. So sánh độ dài của tên và họ của bạn
+4. Khai báo `5` là `num_one`, `4` là `num_two`
+    - Thực hiện cộng 2 số `num_one` và `num_two` -> kết quả `_total`
+    - Lấy `num_one` trừ đi `num_two` -> kết quả `_diff`
+    - Nhân `num_two` với `num_one` và -> `_product`
+    - Chia `num_one` cho `num_two` -> `_division`
+    - Tính số dư khi chia `num_one` cho `num_two` -> `_remainder`
+    - Tính lũy thừa `num_one` mũ `num_two` -> `_exp`
+
+5. Bán kính của hình tròn là 30 mét
+    - Tính diện tích hình tròn -> `area_of_circle`
+    - Chu vi hình tròn -> `circum_of_circle`
+    - Lấy bán kính làm đầu vào của người dùng và tính toán diện tích
+
+**File:** [ex-day02.py](./ex-day02.py)

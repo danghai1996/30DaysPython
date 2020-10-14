@@ -193,6 +193,7 @@ Kiểu dữ liệu số trong Python:
 - Complex Numbers : Số phức. Ví dụ: 1 + j, 2 + 4j, 1 - 1j
 
 # 💻 Bài tập
+**File:** [ex-day02.py](./ex-day02.py)
 ## Level 1: 
 - Tạo 1 file `.py`
 - Viết comment: `Ngày 2 : 30 ngày lập trình Python`
@@ -226,4 +227,3 @@ Kiểu dữ liệu số trong Python:
     - Chu vi hình tròn -> `circum_of_circle`
     - Lấy bán kính làm đầu vào của người dùng và tính toán diện tích
 
-**File:** [ex-day02.py](./ex-day02.py)

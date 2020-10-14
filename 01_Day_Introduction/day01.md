@@ -222,6 +222,8 @@ Xem ví dụ dưới đây ta sẽ thấy các kiểu dữ liệu khác nhau:
 <img src="..\image\day01\Screenshot_9.png">
 
 # 💻 Bài tập
+**File:** [ex-day01.py](./ex-day01.py)
+
 ## Level 1
 1. Kiểm tra phiên bản Python đang sử dụng: **Python 3.7.9**
     Thực hiện trên terminal
@@ -256,7 +258,6 @@ Xem ví dụ dưới đây ta sẽ thấy các kiểu dữ liệu khác nhau:
 ## Level 2
 Thực hiện 4 mục ở level 1 trong 1 file python.
 
-**File:** [ex-day01.py](./ex-day01.py)
 
 **Kết quả:**
 

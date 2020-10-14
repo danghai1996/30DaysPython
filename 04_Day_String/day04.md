@@ -446,6 +446,13 @@ Có nhiều string method cho phép ta định dạng chuỗi. Xem một số ph
     print(_string1.isupper())       # True
     ```
 
+- `join()` : Trả về chuỗi được nối lại với nhau với mã nối được khai báo
+    ```py
+    web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+    result = '# '.join(web_tech)
+    print(result) # 'HTML# CSS# JavaScript# React'
+    ```
+
 - `strip()` : Removes all given characters starting from the beggining and end of the string(Loại bỏ tất cả ký tự đã cho khỏi từ đầu và kết thúc) 
     ```py
     _string = '30 Days Python'
@@ -489,4 +496,65 @@ Có nhiều string method cho phép ta định dạng chuỗi. Xem một số ph
     
     _string1 = '30 days python'
     print(_string1.startswith('python'))    # False
+    ```
+
+# 💻 Exercises - Day 4
+**File:** [ex-day04.py](./ex-day04.py)
+
+1. Nối chuỗi: "30", "Days", "of", "Python" thành "30DaysofPython"
+2. Nối chuỗi: 'Coding', 'For' , 'All' thành 'Coding For All'
+3. Đặt 1 biến là `company` và gán cho nó `Coding For All`
+4. In biến `company` ở mục 3 bằng `print`
+5. In độ dài biến `company` ở trên
+6. Thay đổi tất cả ký tự của biến `company` thành chữ in hoa
+7. Thay đổi tất cả ký tự của biến `company` thành chữ thường
+8. Sử dụng các phương thức `capitalize()`, `title()`, `swapcase()` để định dạng giá trị của biến `company`
+9. Cắt từ đầu tiên của chuỗi `Coding For All` trong biến `company`
+10. Kiểm tra xem biến `company` có chứa từ `Coding` không?
+11. Đổi từ `Coding` trong biến `company` thành `Python`
+12. Thay `Python for Everyone` thành `Python for All`
+13. Tách chuỗi `Coding For All` trong biến `company` dấu phân cách là dấu cách (space)
+14. Tách chuỗi `Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon` ngăn cách bằng dấu phẩy `,`
+15. Tìm ký tự tại index = 0 trong biến `company`
+16. Chỉ số cuối cùng của chuỗi `Coding For All`
+17. Ký tự nào ở index = 10 trong biến `company`
+20. Xác định vị trí đầu tiên của chữ `C` trong chuỗi `Coding For All`
+21. Xác định vị trí đầu tiên của chữ `F` trong chuỗi `Coding For All`
+22. Sử dụng `rfind` để xác định vị trí của lần xuất hiện cuối cùng của `l` trong `Coding For All People`
+23. Sử dụng `find()` hoặc `index()` để tìm vị trí xuất hiện đầu tiên của từ `because` trong câu sau: `You cannot end a sentence with because because because is a conjunction`
+24. Sử dụng `rindex()` để tìm vị trí xuất hiện cuối cùng của từ `because` trong câu sau: `You cannot end a sentence with because because because is a conjunction`
+25. Cắt bỏ cụm từ `because because because` trong câu: `You cannot end a sentence with because because because is a conjunction`
+26. Tìm vị trí xuất hiện đầu tiên của `because` trong câu: `You cannot end a sentence with because because because is a conjunction`
+28. Kiểm tra `Coding For All` có bắt đầu bằng `Coding` không?
+29. Kiểm tra `Coding For All` có kết thúc bằng `coding` không?
+30. `   Coding For All      `. Hãy xóa các khoảng trắng bên trái và bên phải của chuỗi
+31. Biến nào sau đây trả về True khi ta sử dụng `isidentifier()`
+    - `30DaysOfPython`
+    - `thirty_days_of_python`
+32. Danh sách sau có tên của 1 số thư viện Python `['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']`. Ghép chúng thành chuỗi, phân cách bằng dấu cách
+33. Sử dụng dấu xuống dòng để in ra văn bản sau:
+    ```
+    I am enjoying this challenge.
+    I just wonder what is next.
+    ```
+34. Sử dụng dấu tab, xuống dòng để in ra văn bản sau:
+    ```
+    Name      Age     Country
+    Asabeneh  250     Finland
+    ```
+35. Sử dụng string formating để hiển thị như dưới đây
+    ```
+    radius = 10
+    area = 3.14 * radius ** 2
+    The area of a cricle with radius 10 is 314 meters square.
+    ```
+36. Sử dụng string formating để hiển thị:
+    ```
+    8 + 6 = 14
+    8 - 6 = 2
+    8 * 6 = 48
+    8 / 6 = 1.33
+    8 % 6 = 2
+    8 // 6 = 1
+    8 ** 6 = 262144
     ```

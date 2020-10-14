@@ -92,6 +92,8 @@ print(not not False) # False
 ```
 
 # 💻 Exercises - Day 3
+**File:** [ex-day03.py](./ex-day03.py)
+
 1. Khai báo tuổi của mình dưới dạng số nguyên (integer)
 2. Khai báo chiều cao của bạn dưới dạng float
 3. Khai báo 1 biến số phức

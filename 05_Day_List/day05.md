@@ -12,7 +12,7 @@ Trong Python, có 2 cách để tạo list
 ### Cách 1: Sử dụng hàm có sẵn
 ```py
 lst = list()    # List không có phần tử
-print(len(lst)  # 0
+print(len(lst))  # 0
 ```
 
 ### Cách 2: Sử dụng dấu ngoặc vuông `[]`
@@ -555,3 +555,39 @@ OUTPUT
 ['banana', 'lemon', 'mango', 'orange']
 ['orange', 'mango', 'lemon', 'banana']
 ```
+
+# 💻 Exercises - Day 5
+**File:** [ex-day05.py](./ex-day05.py)
+
+## Level 1
+1. Khai báo 1 danh sách trống
+2. Khai báo danh sách có hơn 5 phần tử
+3. Tìm độ dài danh sách đó
+4. Lấy ra thông tin phần tử đầu, giữa và cuối của danh sách đó
+5. Khai báo 1 danh sách thông tin cá nhân của bạn (tên, tuổi, quốc gia, thành phố)
+6. Khai báo 1 danh sách là `it_companies` gồm Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+7. In danh sách bằng `print()`
+8. In số công ty trong danh sách công ty `it_companies`
+9. In công ty đầu tiên, giữa và cuối cùng của danh sách
+10. In danh sách công ty sau khi sửa đổi 1 công ty
+11. Thêm 1 công ty vào `it_companies`
+12. Chèn thêm 1 công ty vào giữa danh sách `it_companies`
+13. Thay đổi tên 1 công ty thành chữ hoa (ngoài `IBM`)
+14. Nối các công ty trong `it_companies` bằng `#;`
+15. Kiểm tra xem 1 công ty có trong danh sách hay không
+16. Sắp xếp danh sách bằng phương thức `sort()`
+17. Đảo ngược danh sách theo thứ tự giảm dần bằng phương thức `reverse()`
+18. cắt 3 công ty đầu tiên khỏi danh sách
+19. cắt 3 công ty cuối cùng khỏi danh sách
+20. Loại bỏ công ty CNTT hạng trung hoặc các công ty khỏi danh sách
+21. Xóa công ty đầu tiên khỏi danh sách
+22. Xóa công ty ở giữa khỏi danh sách
+23. Xóa công ty cuối cùng khỏi danh sách
+24. Xóa tất cả công ty khỏi danh sách
+25. Xóa danh sách `it_companies`
+26. Ghép 2 list
+    ```
+    front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+    back_end = ['Node','Express', 'MongoDB']
+    ```
+27. Copy danh sách đã ghép ở 26 -> `full_stack`. Chèn `Python` và `SQL` vào sau `Redux`

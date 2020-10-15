@@ -8,3 +8,4 @@
 
 [Ngày 04 - Kiểu dữ liệu String](./04_Day_String/day04.md)
 
+[Ngày 05 - List](./05_Day_List/day05.md)
